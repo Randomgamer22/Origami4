@@ -1,14 +1,106 @@
-h1{
+.header {
     background-color: #666666;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
     text-align: center;
-    color: #d1544b
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
 }
-body{
-    background-color: #a8d3e6
+
+.header h1 {
+    font-size: 40px;
 }
-img{
+
+.header hr {
+    width: 60%;
+    height: 2px;
+    background-color: #cccccc
+}
+
+.header a:link,
+a:visited {
+    background-color: #666666;
+    border: 5px solid darkgrey;
+    color: white;
+    padding: 2px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.header a:link,
+a:visited p {
+    font-size: 15px;
+    color: #cccccc
+}
+
+.header a:hover,
+a:active {
+    background-color: #aaaaaa;
+}
+
+.header a:hover,
+a:active p {
+    color: white;
+}
+
+body {
+    background-color: #999999
+}
+
+img {
     border: 3px solid black;
     border-radius: 30px
 }
+
+.origami {
+    background-color: #333333;
+    width: 310px;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.origami h3,
+ul {
+    color: #aaaaaa;
+}
+
+.display {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    background-color: #777777
+}
+
+.aboutusdisplay {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 400px;
+    padding-right: 400px;
+    background-color: #777777;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #cccccc;
+    height: 500px;
+    font-size: 50px;
+}
+
